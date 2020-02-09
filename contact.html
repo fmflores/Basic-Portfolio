@@ -3,19 +3,36 @@
     <head>
         <meta charset="utf-8">
         <title>Contact</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <h2>Contact</h2>
+        <header>
+            <h1>Frank Flores</h1>
+            <section class="links">
+            <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        </section>
+    </header>
         <div class="container">
+        <h2>Contact</h2>
             <form>
+                <div id="name">
               <label for="full-name">Name</label>
               <input type="text" id="full-name" name="full-name" placeholder="John Smith">
+              </div>
+              <div id="email">
               <label for="email">Email</label>
               <input type="text" id="email" name="email" placeholder="example@gmail.com">
+            </div>
+            <div id="message-box">
               <label for="message">Message</label>
               <textarea id="message"name="message" placeholder="" style="height:200px"></textarea>
+            </div>
+            <br>
+              <input type="submit" value="Submit">
             </form>
         </div>
+        <footer>Copyright &copy;</footer>
     </body>
 </html>
