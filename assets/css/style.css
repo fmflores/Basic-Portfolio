@@ -1,10 +1,21 @@
 /* styles for contact.html */
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: #fff;
+    color: #777;
+    background-image: url("../images/natural_paper.png");
+    /* background-size: repeat; */
+}
+
+header {
+    background-color: #fff;
+    border-bottom: solid 2px #ccc;
+    height: 60px;
 }
 
 h1 {
@@ -12,17 +23,21 @@ h1 {
     width: 13%;
     background-color: #4AAAA5;
     color: #eee;
-    padding: 10px;
+    padding: 15px 10px 15px 10px;
     font-size: 24px;
     text-align: center;
-    margin-left: 50px;
+    /* margin-top: 5px; */
+    margin-left: 17%;
+
+    
 }
 
 h2 {
     color: #4AAAA5;
     border-bottom:solid 2px #ddd; 
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     border-radius: 2px;
+    margin-bottom: 2%;
 }
 
 .links {
@@ -34,12 +49,18 @@ h2 {
 
 .container {
     border: 5px;
-    background-color: #ccc;
+    background-color: #fff;
     padding: 20px;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-left: 17%;
     clear: both;
     overflow: auto;
     width: 960px;
+    border: solid 1px #ddd;
+}
+
+#about-me {
+    margin
 }
 
 footer {
@@ -47,7 +68,9 @@ footer {
     text-align: center;
     font-size: 12px;
     color: #eee;
-    padding: 30px 10px 2px 10px;
+    padding: 30px 10px 3px 10px;
     border-top: solid 8px #4AAAA5;
-    width: 960px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
