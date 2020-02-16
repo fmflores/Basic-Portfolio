@@ -7,49 +7,38 @@
   </head>
   <body>
     <header>
-      <h1>Frank Flores</h1>
-      <section class="links">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </section>
+      <div class="header-content">
+        <h1>Frank Flores</h1>
+        <section class="links">
+          <a href="index.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </section>
+      </div>
     </header>
     <div class="container">
       <h2>Contact</h2>
       <form>
-        <!-- <div id="name"> -->
         <label for="#full-name">Name</label>
         <input
           type="text"
           id="full-name"
           name="full-name"
-          style="width:100%; margin-bottom:1%"
           placeholder="John Smith"
         />
-        <!-- </div>
-              <div id="email"> -->
         <label for="#email">Email</label>
         <input
           type="text"
           id="email"
           name="email"
-          style="width:100%; margin-bottom:1%"
           placeholder="example@gmail.com"
         />
-        <!-- </div> -->
         <div id="message-box">
           <label for="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            style="width:100% ;height:200px; margin-bottom:1%"
-            placeholder=""
-          ></textarea>
+          <textarea id="message" name="message" placeholder=""></textarea>
         </div>
         <br />
-        <span type="submit" style="background-color:#4AAAA5;padding:5px;"
-          >Submit</span
-        >
+        <input type="submit" value="Submit" />
       </form>
     </div>
     <footer>Copyright &copy;</footer>

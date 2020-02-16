@@ -8,8 +8,8 @@
 body {
     background-color: #fff;
     color: #777;
-    background-image: url("../images/natural_paper.png");
-    /* background-size: repeat; */
+    background-image: url("../images/white_plaster.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 header {
@@ -18,18 +18,23 @@ header {
     height: 60px;
 }
 
+.header-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+} 
+
 h1 {
     float: left;
-    width: 13%;
+    /* width: 13%; */
     background-color: #4AAAA5;
     color: #eee;
     padding: 15px 10px 15px 10px;
     font-size: 24px;
     text-align: center;
-    /* margin-top: 5px; */
-    margin-left: 25%;
-
-    
 }
 
 h2 {
@@ -42,32 +47,33 @@ h2 {
 
 .links {
     float: right;
-    width: 20%;
-    margin-right:25%;
-    margin-top: 30px;
+    margin-top: 20px;
+    font-size: 12px;
 }
 
-.links a {
-    float:right;
-    margin-left: 1%;
+a {
+    color: #888;
+    margin-left: 10px;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover, a:active {
+    text-decoration: underline;
+  }
+ 
 .container {
     border: 5px;
     background-color: #fff;
     padding: 20px;
-    
     margin:auto;
     margin-top: 1%;
     margin-bottom: 10%;
     clear: both;
-    overflow: auto;
-    width: 50%;
+    width: 960px;
     border: solid 1px #ddd;
-}
-
-#bio-main {
-    /* position: relative; */
 }
 
 footer {
@@ -83,9 +89,44 @@ footer {
 }
 
 p {
-    font-size: 24px;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+.port-images {
+    /* set width for this container to 75% so that breakpoint is after every 2 images*/
+    width: 75%;
 }
 
 .port-images img {
     margin:20px;
+}
+
+#bio-image {
+    float: left;
+    margin: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-top: 1%;
+}
+
+input[type="submit"] {
+    background-color: #4AAAA5;
+    color: white;
+    padding: 1% 3% 1% 3%;
+    border: none;
 }
