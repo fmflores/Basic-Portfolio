@@ -27,7 +27,7 @@ h1 {
     font-size: 24px;
     text-align: center;
     /* margin-top: 5px; */
-    margin-left: 17%;
+    margin-left: 25%;
 
     
 }
@@ -41,26 +41,33 @@ h2 {
 }
 
 .links {
-    float: left;
+    float: right;
     width: 20%;
-    margin-left: 500px;
+    margin-right:25%;
     margin-top: 30px;
+}
+
+.links a {
+    float:right;
+    margin-left: 1%;
 }
 
 .container {
     border: 5px;
     background-color: #fff;
     padding: 20px;
-    margin-top: 3%;
-    margin-left: 17%;
+    
+    margin:auto;
+    margin-top: 1%;
+    margin-bottom: 10%;
     clear: both;
     overflow: auto;
-    width: 960px;
+    width: 50%;
     border: solid 1px #ddd;
 }
 
-#about-me {
-    margin
+#bio-main {
+    /* position: relative; */
 }
 
 footer {
@@ -70,7 +77,15 @@ footer {
     color: #eee;
     padding: 30px 10px 3px 10px;
     border-top: solid 8px #4AAAA5;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+p {
+    font-size: 24px;
+}
+
+.port-images img {
+    margin:20px;
 }

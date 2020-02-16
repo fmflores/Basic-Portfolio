@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <title>Contact</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Frank Flores</h1>
-            <section class="links">
-            <a href="about.html">About</a>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Frank Flores</h1>
+      <section class="links">
+        <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
-        </section>
+      </section>
     </header>
-        <div class="container">
-        <h2>Contact</h2>
-            <form>
-                <div id="name">
-              <label for="full-name">Name</label>
-              <input type="text" id="full-name" name="full-name" placeholder="John Smith">
-              </div>
-              <div id="email">
-              <label for="email">Email</label>
-              <input type="text" id="email" name="email" placeholder="example@gmail.com">
-            </div>
-            <div id="message-box">
-              <label for="message">Message</label>
-              <textarea id="message"name="message" placeholder="" style="height:200px"></textarea>
-            </div>
-            <br>
-              <input type="submit" value="Submit">
-            </form>
+    <div class="container">
+      <h2>Contact</h2>
+      <form>
+        <!-- <div id="name"> -->
+        <label for="#full-name">Name</label>
+        <input
+          type="text"
+          id="full-name"
+          name="full-name"
+          style="width:100%; margin-bottom:1%"
+          placeholder="John Smith"
+        />
+        <!-- </div>
+              <div id="email"> -->
+        <label for="#email">Email</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          style="width:100%; margin-bottom:1%"
+          placeholder="example@gmail.com"
+        />
+        <!-- </div> -->
+        <div id="message-box">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            style="width:100% ;height:200px; margin-bottom:1%"
+            placeholder=""
+          ></textarea>
         </div>
-        <footer>Copyright &copy;</footer>
-    </body>
+        <br />
+        <span type="submit" style="background-color:#4AAAA5;padding:5px;"
+          >Submit</span
+        >
+      </form>
+    </div>
+    <footer>Copyright &copy;</footer>
+  </body>
 </html>
